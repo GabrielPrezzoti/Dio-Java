@@ -1,18 +1,28 @@
-## Getting Started
+# Métodos
+ 
+ ## Critérios
+ Exemplos sugeridos para nomenclatura de métodos:
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Copy
+somar(int n1, int n2){}
 
-## Folder Structure
+abrirConexao(){}
 
-The workspace contains two folders by default, where:
+concluirProcessamento() {}
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+findById(int id){}
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Critério de definição de métodos
+Como sabemos a melhor forma, de definir os métodos das nossas classes? Para chegar à essa conclusão, somos auxiliados por uma convenção estrutural para todos os métodos. Essa convenção é determinada pelos aspectos abaixo:
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+1 - Qual a proposta principal do método? Você deve se perguntar constantemente até compreender a real finalidade do mesmo.
 
-## Dependency Management
+2 - Qual o tipo de retorno esperado após executar o método? Você deve analisar se o método será responsável por retornar algum valor ou não.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+*Caso o método não retorne nenhum valor, ele será representado pela palavra-chave void.*
+
+3 - Quais os parâmetros serão necessários para execução do método? Os métodos às vezes precisarão de argumentos como critérios para a execução.
+
+4 - O método possui o risco de apresentar alguma exceção? Exceções são comuns na execução de métodos, as vezes é necessário prever e tratar a possível existência de uma exceção.
+
+5 - Qual a visibilidade do método? Avaliar se será necessário que o método seja visível a toda aplicação, somente em pacotes, através de herança ou somente a nível a própria classe.
