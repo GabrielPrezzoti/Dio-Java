@@ -32,7 +32,7 @@ public class App {
 		//um objeto cliente e passar como parâmetro ?
 		//veja abaixo
 	}
-	public void gravarCliente(Cliente cliente){}
+	//public void gravarCliente(Cliente cliente){}
 	//ou
-	public void gravar(Cliente cliente){}
+	//public void gravar(Cliente cliente){}
 }
