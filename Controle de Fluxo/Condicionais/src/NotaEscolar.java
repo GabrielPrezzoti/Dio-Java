@@ -1,3 +1,5 @@
+// CONDICIONAL ENCADEADA
+
 public class NotaEscolar {
     public static void main(String[] args) {
         int nota = 6;
