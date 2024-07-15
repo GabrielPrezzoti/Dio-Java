@@ -6,6 +6,16 @@ Repositório para armazenar todo o código e anotações do curso da DIO-Java (I
 
 ![Vscode](https://img.shields.io/badge/Vscode-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
+---
+# Recomendação de ordem para estudos:
+- Tipos e Variáveis
+- Operadores
+- Métodos
+- Escopo
+- Terminal e Argumentos
+- Controle de Fluxo (Estruturas condicionais, de repetição e excepcionais)
+---
+
 
 # Autor
 <p>
