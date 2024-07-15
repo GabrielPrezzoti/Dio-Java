@@ -8,12 +8,12 @@ Repositório para armazenar todo o código e anotações do curso da DIO-Java (I
 
 ---
 # Recomendação de ordem para estudos:
-1 - Tipos e Variáveis
-2 - Operadores
-3 - Métodos
-4 - Escopo
-5 - Terminal e Argumentos
-6 - Controle de Fluxo (Estruturas condicionais, de repetição e excepcionais)
+ - Tipos e Variáveis
+ - Operadores
+ - Métodos
+ - Escopo
+ - Terminal e Argumentos
+ - Controle de Fluxo (Estruturas condicionais, de repetição e excepcionais)
 ---
 
 
